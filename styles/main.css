@@ -1,0 +1,82 @@
+/*Code credit to Mindy McAdams
+https://jsfiddle.net/macloo/e2yr41La/
+https://jsfiddle.net/macloo/z6mq5x2c/*/
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Mulish', 'Arial', sans-serif;
+    background:#1E0A2F;
+    color: #fff;
+    margin: auto;
+    align-items: center;
+}
+
+article {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  border: 1px solid #F4EACC;
+  background: #fff;
+  align-items: center;
+  margin: 2rem;
+}
+
+p {
+  max-width: 450px;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 3rem;
+    color: #F4EACC;
+}
+
+footer {
+    grid-area: footer; /* keep */
+    padding: 2rem 3rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.text {
+  font-size: 1.10rem;
+  line-height: 2rem;
+}
+
+a {
+    color: #D291BC;
+}
+a:hover {
+    color: #379CB2;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+
+ article {
+ max-width: 100%;
+ padding: 10px;
+}
+
+p {
+  width: 100%;
+}
+
+  }
