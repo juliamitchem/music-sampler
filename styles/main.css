@@ -68,7 +68,7 @@ a:hover {
     text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 530px) {
 
  article {
  max-width: 100%;
@@ -77,6 +77,15 @@ a:hover {
 
 p {
   width: 100%;
+}
+
+.text {
+  font-size: 2rem;
+  text-align: center;
+}
+
+img{
+  max-width: 500px;
 }
 
   }

@@ -24,19 +24,19 @@ let players = document.querySelectorAll('audio');
 
     switch (e.target.getAttribute('id')) {
       case 'album1':
-        document.querySelector('#dogstuff')
+        document.querySelector('#resonantstuff')
         	.style.display = 'block';
         break;
       case 'album2':
-        document.querySelector('#fallingstuff')
+        document.querySelector('#dogstuff')
         	.style.display = 'block';
         break;
       case 'album3':
-        document.querySelector('#newstuff')
+        document.querySelector('#fallingstuff')
         .style.display = 'block';
         break;
       case 'album4':
-        document.querySelector('#resonantstuff')
+        document.querySelector('#newstuff')
         .style.display = 'block';
         break;
     }
